@@ -4,6 +4,9 @@
 		<view>
             <text class="title">{{title}}</text>
         </view>
+		<navigator url="./login" hover-class="navigator-hover">
+            <button type="default">去登陆</button>
+        </navigator>
 	</view>
 </template>
 
@@ -12,7 +15,7 @@
 	export default Vue.extend({
 		data() {
 			return {
-				title: 'Hello'
+				title: 'Hello uinapp'
 			}
 		},
 		onLoad() {

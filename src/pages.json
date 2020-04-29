@@ -5,6 +5,24 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		},
+		{
+			"path": "pages/index/login",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "热门单曲"
+			}
+		},
+		{
+			"path": "pages/home/play",
+			"style": {
+				"navigationBarTitleText": "播放音乐"
+			}
 		}
 	],
 	"globalStyle": {
