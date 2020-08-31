@@ -1,5 +1,6 @@
 <template>
   <text class="music">
+    <!-- 这里是胜宇分支上的内容 -->
     <div class="lyric" :style="'background:url('+music.picUrl+')'" ref="scroll">
       <p
         :key="index"
