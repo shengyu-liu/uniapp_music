@@ -6,6 +6,7 @@
         v-for="(item,index) in lyrics"
         :class="index == activeIndex?'active':''"
       >{{item.c}}</p>
+      adf 
     </div>
   </text>
 </template>
