@@ -9,6 +9,7 @@
       :author="music.author"
       controls
       @timeupdate="timeupdata"
+      <!-- 提交到分支上 -->
     ></audio>
     <div class="lyricbtn" @click="openLyrics">词</div>
   </view>
