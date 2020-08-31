@@ -1,13 +1,13 @@
 <template>
   <text class="music">
-    <!-- 这里是胜宇分支上的内容 -->
+    <!-- a做了修改 -->
     <div class="lyric" :style="'background:url('+music.picUrl+')'" ref="scroll">
       <p
         :key="index"
         v-for="(item,index) in lyrics"
         :class="index == activeIndex?'active':''"
       >{{item.c}}</p>
-      adf asdf 
+      adf 
     </div>
   </text>
 </template>
