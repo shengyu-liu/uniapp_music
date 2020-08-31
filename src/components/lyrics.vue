@@ -1,7 +1,7 @@
 <template>
   <text class="music">
     <!-- a做了修改 -->
-    <!-- b做了修改 -->
+    <!-- b做了修改啊哈 -->
     <div class="lyric" :style="'background:url('+music.picUrl+')'" ref="scroll">
       <p
         :key="index"
