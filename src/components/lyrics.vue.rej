@@ -1,0 +1,9 @@
+diff a/src/components/lyrics.vue b/src/components/lyrics.vue	(rejected hunks)
+@@ -6,6 +6,7 @@
+         v-for="(item,index) in lyrics"
+         :class="index == activeIndex?'active':''"
+       >{{item.c}}</p>
++      adf 
+     </div>
+   </text>
+ </template>
